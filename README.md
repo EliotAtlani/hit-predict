@@ -22,29 +22,10 @@ HitPredict is a machine learning project aimed at predicting the popularity of s
 - tensorflow (optional)
 - matplotlib (optional, for visualization)
 
-### Installation
+### Data
 
-Start by downloading the data at this link [30000 Spotify Songs](https://www.kaggle.com/datasets/joebeachcapital/30000-spotify-songs?resource=download&select=spotify_songs.csv)
-and add in a folder `data` at the root of the project like this:
+The initial data was taken from https://www.kaggle.com/datasets/joebeachcapital/30000-spotify-songs?resource=download&select=spotify_songs.csv . It was then preprocessed and saved in different csv files in the data folder.
 
-```
-data/
-    - spotify_songs.csv
-notebooks/
-.gitignore
-README.md
-```
+### Notebooks
 
-Run this command to create a conda environment:
-
-```
-conda create -n hit_predict python=3.9 numpy pandas scikit-learn matplotlib seaborn jupyterlab
-```
-
-Activate your conda environment:
-
-```
- conda activate hit_predict
-```
-
-Then select this environment to run
+The notebooks folder contains Jupyter notebooks for data preprocessing, exploratory data analysis, and machine learning modeling.
