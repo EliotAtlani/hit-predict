@@ -21,6 +21,7 @@ HitPredict is a machine learning project aimed at predicting the popularity of s
 - scikit-learn
 - tensorflow (optional)
 - matplotlib (optional, for visualization)
+- statmodels
 
 ### Data
 
