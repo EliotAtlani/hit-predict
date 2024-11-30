@@ -1,0 +1,6 @@
+Model,Accuracy
+Decisition Tree,0.8513489684359019
+Random Forest,0.8661611708693352
+Random Forest without feature engineering,0.8606947628284253
+Random Forest without resampling,0.8661611708693352
+XGB Classifier,0.8735672720860519
