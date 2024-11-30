@@ -1,0 +1,4 @@
+Model,Accuracy
+Decisition Tree Depth 12,0.7712925409980603
+Random Forest,0.7834597072826662
+XGB Classifier,0.8120260976900018
